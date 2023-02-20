@@ -3,6 +3,854 @@
 
 /*@import "{{ site.theme }}";*/
 
+
+
+@font-face {
+  font-family: NCE;
+  src: url("fonts/noto-color-emoji-v24-emoji-regular.woff2") format('woff2'),
+     url("fonts/noto-color-emoji-v24-emoji-regular.woff") format('woff');
+  font-weight: bold;
+  font-weight: normal;
+  font-style: italic;
+  font-style: normal;
+}
+
+html {
+font-family:
+-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, Cantarell, "Helvetica Neue","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji","Apple Color Emoji";
+}
+code {
+font-family: monospace;
+}
+@supports (-moz-appearance:none) {
+html {
+font-family:
+-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, Cantarell, "Helvetica Neue","Segoe UI Emoji","Segoe UI Symbol",NCE,"Noto Color Emoji","Apple Color Emoji";
+}
+}
+a {
+    text-decoration: none; 
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+svg {
+  max-width: 100%;
+  height: auto;
+  padding: 6px;
+}
+
+#subtitle {
+  display: flex;
+}
+@media (prefers-color-scheme: dark) {
+a:visited {
+  color: #8ab4f8;
+}
+a:link {
+  color: #8ab4f8;
+}
+  html {
+    color: #C9D1D9;
+    background-color: #0D1117;
+  }
+
+  /*svg {
+    color: #C9D1D9;
+    stroke: #C9D1D9;
+    fill: #C9D1D9;
+  }*/
+
+  /*  ==============================================================================
+                        Breezedark (pandoc built-in style)                      
+    ==============================================================================
+    Style from the "Breeze Dark" KDE syntax highlighting theme.
+  
+    This stylesheet was produced using Pandoc v2.7.2.
+  
+    Pandoc is (c) 2006-2017 John MacFarlane (jgm@berkeley.edu).
+    Released under the GPL, version 2 or greater. 
+    ------------------------------------------------------------------------------
+*/
+  a.sourceLine {
+    display: inline-block;
+    line-height: 1.25;
+  }
+
+  a.sourceLine {
+    pointer-events: none;
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  a.sourceLine:empty {
+    height: 1.2em;
+  }
+
+  .sourceCode {
+    overflow: visible;
+  }
+
+
+  code.sourceCode {
+    white-space: pre;
+    position: relative;
+  }
+
+  div.sourceCode {
+    margin: 1em 0;
+  }
+
+  pre.sourceCode {
+    margin: 0;
+  }
+
+  div.sourceCode {
+    overflow: auto;
+  }
+
+  pre.numberSource a.sourceLine {
+    position: relative;
+    left: -4em;
+  }
+
+  pre.numberSource a.sourceLine::before {
+    content: attr(title);
+    position: relative;
+    left: -1em;
+    text-align: right;
+    vertical-align: baseline;
+    border: none;
+    pointer-events: all;
+    display: inline-block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0 4px;
+    width: 4em;
+    background-color: #232629;
+    color: #7a7c7d;
+  }
+
+  pre.numberSource {
+    margin-left: 3em;
+    border-left: 1px solid #7a7c7d;
+    padding-left: 4px;
+  }
+
+  div.sourceCode {
+    color: #cfcfc2;
+    background-color: #232629;
+  }
+
+  a.sourceLine::before {
+    text-decoration: underline;
+  }
+
+  code span {
+    color: #cfcfc2;
+  }
+
+  /* Normal */
+  code span.al {
+    color: #95da4c;
+  }
+
+  /* Alert */
+  code span.an {
+    color: #3f8058;
+  }
+
+  /* Annotation */
+  code span.at {
+    color: #2980b9;
+  }
+
+  /* Attribute */
+  code span.bn {
+    color: #f67400;
+  }
+
+  /* BaseN */
+  code span.bu {
+    color: #7f8c8d;
+  }
+
+  /* BuiltIn */
+  code span.cf {
+    color: #fdbc4b;
+  }
+
+  /* ControlFlow */
+  code span.ch {
+    color: #3daee9;
+  }
+
+  /* Char */
+  code span.cn {
+    color: #27aeae;
+  }
+
+  /* Constant */
+  code span.co {
+    color: #7a7c7d;
+  }
+
+  /* Comment */
+  code span.cv {
+    color: #7f8c8d;
+  }
+
+  /* CommentVar */
+  code span.do {
+    color: #a43340;
+  }
+
+  /* Documentation */
+  code span.dt {
+    color: #2980b9;
+  }
+
+  /* DataType */
+  code span.dv {
+    color: #f67400;
+  }
+
+  /* DecVal */
+  code span.er {
+    color: #da4453;
+  }
+
+  /* Error */
+  code span.ex {
+    color: #0099ff;
+  }
+
+  /* Extension */
+  code span.fl {
+    color: #f67400;
+  }
+
+  /* Float */
+  code span.fu {
+    color: #8e44ad;
+  }
+
+  /* Function */
+  code span.im {
+    color: #27ae60;
+  }
+
+  /* Import */
+  code span.in {
+    color: #c45b00;
+  }
+
+  /* Information */
+  code span.kw {
+    color: #cfcfc2;
+  }
+
+  /* Keyword */
+  code span.op {
+    color: #cfcfc2;
+  }
+
+  /* Operator */
+  code span.ot {
+    color: #27ae60;
+  }
+
+  /* Other */
+  code span.pp {
+    color: #27ae60;
+  }
+
+  /* Preprocessor */
+  code span.re {
+    color: #2980b9;
+  }
+
+  /* RegionMarker */
+  code span.sc {
+    color: #3daee9;
+  }
+
+  /* SpecialChar */
+  code span.ss {
+    color: #da4453;
+  }
+
+  /* SpecialString */
+  code span.st {
+    color: #f44f4f;
+  }
+
+  /* String */
+  code span.va {
+    color: #27aeae;
+  }
+
+  /* Variable */
+  code span.vs {
+    color: #da4453;
+  }
+
+  /* VerbatimString */
+  code span.wa {
+    color: #da4453;
+  }
+
+  /* Warning */
+
+}
+
+@media (prefers-color-scheme: light) {
+a:visited {
+  color: blue;
+}
+a:link {
+  color: blue;
+}
+  html {
+    color: #24292f;
+    background-color: #fdfdfd;
+  }
+
+  div.sourceCode {
+    background-color: #ffffff;
+  }
+
+  /*svg {
+    color: #24292f;
+    stroke: #24292f;
+    fill: #24292f;
+    font-size: .9em;
+  }*/
+
+
+
+  pre>code.sourceCode {
+    white-space: pre;
+    position: relative;
+  }
+
+  pre>code.sourceCode>span {
+    display: inline-block;
+    line-height: 1.25;
+  }
+
+  pre>code.sourceCode>span:empty {
+    height: 1.2em;
+  }
+
+  .sourceCode {
+    overflow: visible;
+  }
+
+  code.sourceCode>span {
+    text-decoration: inherit;
+  }
+
+  div.sourceCode {
+    margin: 1em 0;
+  }
+
+  pre.sourceCode {
+    margin: 0;
+  }
+
+
+
+  pre.numberSource code {
+    counter-reset: source-line 0;
+  }
+
+  pre.numberSource code>span {
+    position: relative;
+    left: -4em;
+    counter-increment: source-line;
+  }
+
+  pre.numberSource code>span>a:first-child::before {
+    content: counter(source-line);
+    position: relative;
+    left: -1em;
+    text-align: right;
+    vertical-align: baseline;
+    border: none;
+    display: inline-block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0 4px;
+    width: 4em;
+  }
+
+  pre.numberSource {
+    margin-left: 3em;
+    border-left: 1px solid #a0a0a0;
+    padding-left: 4px;
+  }
+
+
+  code span {
+    color: #1f1c1b;
+  }
+
+  /* Normal */
+  code span.al {
+    color: #bf0303;
+    background-color: #f7e6e6;
+    font-weight: bold;
+  }
+
+  /* Alert */
+  code span.an {
+    color: #ca60ca;
+  }
+
+  /* Annotation */
+  code span.at {
+    color: #0057ae;
+  }
+
+  /* Attribute */
+  code span.bn {
+    color: #b08000;
+  }
+
+  /* BaseN */
+  code span.bu {
+    color: #644a9b;
+    font-weight: bold;
+  }
+
+  /* BuiltIn */
+  code span.cf {
+    color: #1f1c1b;
+    font-weight: bold;
+  }
+
+  /* ControlFlow */
+  code span.ch {
+    color: #924c9d;
+  }
+
+  /* Char */
+  code span.cn {
+    color: #aa5500;
+  }
+
+  /* Constant */
+  code span.co {
+    color: #898887;
+  }
+
+  /* Comment */
+  code span.cv {
+    color: #0095ff;
+  }
+
+  /* CommentVar */
+  code span.do {
+    color: #607880;
+  }
+
+  /* Documentation */
+  code span.dt {
+    color: #0057ae;
+  }
+
+  /* DataType */
+  code span.dv {
+    color: #b08000;
+  }
+
+  /* DecVal */
+  code span.er {
+    color: #bf0303;
+    text-decoration: underline;
+  }
+
+  /* Error */
+  code span.ex {
+    color: #0095ff;
+    font-weight: bold;
+  }
+
+  /* Extension */
+  code span.fl {
+    color: #b08000;
+  }
+
+  /* Float */
+  code span.fu {
+    color: #644a9b;
+  }
+
+  /* Function */
+  code span.im {
+    color: #ff5500;
+  }
+
+  /* Import */
+  code span.in {
+    color: #b08000;
+  }
+
+  /* Information */
+  code span.kw {
+    color: #1f1c1b;
+    font-weight: bold;
+  }
+
+  /* Keyword */
+  code span.op {
+    color: #1f1c1b;
+  }
+
+  /* Operator */
+  code span.ot {
+    color: #006e28;
+  }
+
+  /* Other */
+  code span.pp {
+    color: #006e28;
+  }
+
+  /* Preprocessor */
+  code span.re {
+    color: #0057ae;
+    background-color: #e0e9f8;
+  }
+
+  /* RegionMarker */
+  code span.sc {
+    color: #3daee9;
+  }
+
+  /* SpecialChar */
+  code span.ss {
+    color: #ff5500;
+  }
+
+  /* SpecialString */
+  code span.st {
+    color: #bf0303;
+  }
+
+  /* String */
+  code span.va {
+    color: #0057ae;
+  }
+
+  /* Variable */
+  code span.vs {
+    color: #bf0303;
+  }
+
+  /* VerbatimString */
+  code span.wa {
+    color: #bf0303;
+  }
+
+
+
+}
+
+
+
+body {
+  margin: 0 auto;
+  /* max-width: 36em;*/
+  padding: 0px;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+}
+a:link {
+  text-decoration: none;
+}  
+#mini_nav {
+  display: flex;
+  justify-content: center;
+  margin-top:.2em;
+  font-size: 2em;
+  letter-spacing: .2em;
+}
+#titlehead  {
+  display: flex;
+  justify-content: center;
+}
+ #logo {
+    display: flex;
+    justify-content: center;
+    min-width: 10em;
+    margin: .3em;
+    grid-column: 1;
+    grid-row: 1/6;
+  }
+  #titlehead {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  #pdf {
+    min-width: 4em;
+    padding: .2em;
+    grid-column: 3;
+    grid-row: 1;
+  }
+  #abstract {
+    font-weight: bold;
+    grid-column: 2/4;
+    padding-left:1em;
+    grid-row: 2;
+  }
+  #thanks {
+    margin-top: 1em;
+    font-weight: bold;
+    font-style: italic;
+    padding-left:1em;
+    grid-column: 2/4;
+    grid-row: 3;
+  }
+  #subtitle {
+    margin-top: 1em;
+    padding-left:1em;
+    grid-column: 2/4;
+    grid-row: 4;
+  }
+  #subtitle svg{
+    min-width:53.16px; 
+  }
+  #rest {
+    grid-column: 1/4;
+    grid-row: 6;
+    margin: 1em;
+  }
+  #barbottom {
+    margin-top: 1em;
+    grid-row: 5;
+    grid-column: 1/4;
+  }
+   #pandoc{
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr 1fr 1fr auto; 
+  }
+
+@media (max-width: 1000px) {
+  #full {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1em auto; 
+  }
+  #sig {
+    display: none;
+  }
+  #bartop {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #mini_nav {
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+  }
+  #TOC {
+    display: none;
+  }
+  body {
+    font-size: 0.9em;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+}
+@media (min-width: 1001px) {
+  #pandoc{
+    grid-row: 2;
+    grid-column: 2;
+  }
+  #full {
+  grid-template-columns: minmax(300px, 1fr) 3fr;
+    grid-template-rows: 1em auto; 
+  }
+
+  #bartop {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+  #mini_nav {
+    display: none;
+  }
+  #TOC {
+    grid-row: 2;
+    grid-column: 1;
+    display: block;
+  }
+
+}
+
+p {
+  margin: 1em 0;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: .5em;
+}
+
+h5,
+h6 {
+  font-size: 1em;
+  font-style: italic;
+}
+
+h6 {
+  font-weight: normal;
+}
+
+ol,
+ul {
+  padding-left: 1.7em;
+  margin-top: 1em;
+}
+
+li>ol,
+li>ul {
+  margin-top: 0;
+}
+
+blockquote {
+  margin: 1em 0 1em 1.7em;
+  padding-left: 1em;
+  border-left: 2px solid #e6e6e6;
+  color: #606060;
+}
+
+
+code {
+  font-size: 85%;
+  margin: 0;
+  hyphens: manual;
+}
+
+pre {
+  margin: 1em 0;
+  overflow: auto;
+}
+
+pre code {
+  padding: 0;
+  overflow: visible;
+  overflow-wrap: normal;
+}
+
+.sourceCode {
+  overflow: visible;
+}
+
+
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+table caption {
+  margin-bottom: 0.75em;
+}
+
+tbody {
+  margin-top: 0.5em;
+  border-top: 1px solid #0f0f0f;
+  border-bottom: 1px solid #0f0f0f;
+}
+
+th {
+  border-top: 1px solid #0f0f0f;
+  padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+td {
+  padding: 0.125em 0.5em 0.25em 0.5em;
+}
+
+
+#TOC {
+  margin: 1em;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+#TOC li {
+  list-style: none;
+}
+
+#TOC ul {
+  padding-left: 1.3em;
+}
+
+#TOC>ul {
+  padding-left: 0;
+}
+
+
+code {
+  white-space: pre-wrap;
+}
+
+span.smallcaps {
+  font-variant: small-caps;
+}
+
+div.columns {
+  display: flex;
+  gap: min(4vw, 1.5em);
+}
+
+div.column {
+  flex: auto;
+  overflow-x: auto;
+}
+
+div.hanging-indent {
+  margin-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+
+
+/* CSS for syntax highlighting */
+/* CSS for citations */
+div.csl-bib-body {}
+
+div.csl-entry {
+  clear: both;
+}
+
 .hanging-indent div.csl-entry {
   margin-left: 2em;
   text-indent: -2em;
@@ -46,6 +894,5 @@ div.csl-indent {
   overflow-y: scroll;
   max-height: 100vh;
 }
-
 
 
