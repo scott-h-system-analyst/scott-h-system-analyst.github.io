@@ -1,0 +1,139 @@
+The O.R.N.G. software repository includes:
+- triples.txt 
+    Data used for O.R.N.G. in triple form 
+- index.notriples.html
+    An ECMAScript (ES6, JavaScript standard) for public
+    Combined with triples.txt, this is the O.R.N.G. website. 
+- index.mcj.notriples.html
+    An ECMAScript (ES6, JavaScript standard) for MCJ
+    This is used to communicate with mcj.py over MQTT 
+- mcj.py
+    A Python 3 script
+    This builds the triples and assembles into the above
+    files.  It serves as a journal.  MCJ= Mountain
+    Climbing Journal.  
+
+
+Embedded in index.notriples.html and index.mcj.notriples.html,
+as base64 source scripts, are MQTT.js, Lodash, and LokiJS, 
+which have different licenses, detailed below.
+
+~~~~~~~~~~~~~~~~~
+O.R.N.G. license: 
+~~~~~~~~~~~~~~~~~
+
+
+O.R.N.G. is free and unencumbered software released into the 
+public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell,
+or distribute this software, either in source code form or
+as a compiled binary, for any purpose, commercial or 
+non-commercial, and by any means.
+
+In jurisdictions that recognize copyright laws, the author
+or authors of this software dedicate any and all copyright
+interest in the software to the public domain. We make 
+this dedication for the benefit of the public at large and
+to the detriment of our heirs and successors. We intend
+this dedication to be an overt act of relinquishment in
+perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+
+For more information, please refer to https://unlicense.org
+
+
+~~~~~~~~~~~~~~~
+Lodash license: 
+~~~~~~~~~~~~~~~
+
+The MIT License
+
+Copyright JS Foundation and other contributors 
+https://js.foundation/
+
+Based on Underscore.js, copyright Jeremy Ashkenas, 
+DocumentCloud and Investigative Reporters & Editors 
+http://underscorejs.org/
+
+This software consists of voluntary contributions made 
+by many individuals. For exact contribution history, 
+see the revision history available at
+https://github.com/lodash/lodash
+
+The following license applies to all parts of this
+software except as documented below:
+
+====
+
+Permission is hereby granted, free of charge, to any 
+person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the 
+Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, 
+sublicense, and/or sell copies of the Software, and to 
+permit persons to whom the Software is furnished to do so, 
+subject to the following conditions:
+
+The above copyright notice and this permission notice 
+shall be included in all copies or substantial portions 
+of the Software.
+
+
+~~~~~~~~~~~~~~~
+LokiJS license:
+~~~~~~~~~~~~~~~
+
+Copyright (c) 2015 TechFort joe.minichino@gmail.com
+
+Permission is hereby granted, free of charge, to any person 
+obtaining a copy of this software and associated documentation 
+files (the "Software"), to deal in the Software without 
+restriction, including without limitation the rights to use, 
+copy, modify, merge, publish, distribute, sublicense, and/or 
+sell copies of the Software, and to permit persons to 
+whom the Software is furnished to do so, subject to the 
+following conditions:
+
+The above copyright notice and this permission notice shall 
+be included in all copies or substantial portions of the 
+Software.
+
+~~~~~~~~~~~~~~~~
+MQTT.js license:
+~~~~~~~~~~~~~~~~
+
+
+The MIT License (MIT)
+=====================
+
+Copyright (c) 2015-2016 MQTT.js contributors
+---------------------------------------
+
+MQTT.js contributors listed at 
+https://github.com/mqttjs/MQTT.js#contributors
+
+Copyright 2011-2014 by Adam Rudd
+
+Permission is hereby granted, free of charge, to any person 
+obtaining a copy of this software and associated documentation 
+files (the "Software"), to deal in the Software without 
+restriction, including without limitation the rights to use, 
+copy, modify, merge, publish, distribute, sublicense, and/or 
+sell copies of the Software, and to permit persons to whom 
+the Software is furnished to do so, subject to the following 
+conditions:
+
+The above copyright notice and this permission notice shall 
+be included in all copies or substantial portions of the 
+Software.
