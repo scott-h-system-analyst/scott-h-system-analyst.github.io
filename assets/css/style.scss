@@ -1,0 +1,51 @@
+---
+---
+
+/*@import "{{ site.theme }}";*/
+
+.hanging-indent div.csl-entry {
+  margin-left: 2em;
+  text-indent: -2em;
+}
+
+div.csl-left-margin {
+  min-width: 2em;
+  float: left;
+}
+
+div.csl-right-inline {
+  margin-left: 2em;
+  padding-left: 1em;
+}
+
+div.csl-indent {
+  margin-left: 2em;
+}
+
+#sean_button {
+  right: 10px;
+  font-size: 2em;
+  position: fixed;
+  bottom: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#full {
+  display: grid;
+  grid-template-rows: auto;
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+#pandoc {
+  display:grid;
+  overflow-y: scroll;
+  max-height: 100vh;
+}
+
+
+
