@@ -6,14 +6,6 @@ title: "Scott H. Code and Demonstrations"
 date:   datehere
 abstract: "I help people collaboratively model, understand, operate and improve systems using local-first graph analysis that prioritizes human cognition over machine."
 
-fontcolor: "#ffffff"
-link-citations: true
-fontsize: 12pt
-numbersections: true
-linkReferences: true
-
-
-
 ---
 
 
