@@ -3,14 +3,14 @@ author: "Scott H."
 
 
 title: "Scott H. Code and Demonstrations"
-date:   datehere
 abstract: "I help people collaboratively model, understand, operate and improve systems using local-first graph analysis that prioritizes human cognition over machine."
 
 ---
 
 
 # Graph Grow
-Demonstration of local-first graph collaboration utilizing Plotly Dash. Updates are added via MQTT. 
+Demonstration of local-first graph collaboration utilizing Plotly Dash. 
+
 
 ## Code
 

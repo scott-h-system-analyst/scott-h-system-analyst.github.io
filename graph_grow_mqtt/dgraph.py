@@ -8,7 +8,7 @@ digraph {
 node [shape = "plain"];
 node [fontname = "Helvetica-Bold"];
 edge [fontname = "Helvetica-Bold"];
-edge [fontname = "Helvetica-Bold"];
+graph [fontname = "Helvetica-Bold"];
 bgcolor=transparent;
 charset="utf-8";
 splines="true";
