@@ -1,5 +1,9 @@
 # coding=utf-8
 # Dash and modules via pip on 2023-02-20
+#
+# Just for demonstration.  You will likely want a
+# more robust queue, perhaps use MQTT Dash plugin
+# as a tickler for graph download and updates.
 from dash import Dash, html,Input,Output
 import dash_mqtt,dash_interactive_graphviz
 app = Dash(__name__)
