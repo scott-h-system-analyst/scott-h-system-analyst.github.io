@@ -1,0 +1,17 @@
+.topbar textarea {
+  font-size:1.7em;
+  height:1em;
+  /* ^ don't ask me why; strangeness */
+}
+#level {
+  font-size:1.2em;
+  padding-right: .4em;
+  width: 10em;
+}
+#dataflow{
+  font-size:1.3em;
+}
+.topbar {
+  display:flex;
+  justify-content:space-between;
+}
