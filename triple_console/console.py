@@ -58,7 +58,7 @@ predicates=list(a('➡️⬅️↔️'))
 # Emoji for direction of data flow.
 
 
-with open('triples.txt') as tr:
+with open('triples.txt',encoding='utf-8') as tr:
   for lt in tr.readlines():
     line=lt.strip()
     level,s,p,o=re.split(r'▪️|🔹',line)
