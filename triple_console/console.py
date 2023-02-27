@@ -76,7 +76,9 @@ with open('triples.txt') as tr:
 
 def update_level(level,curr_proc):
   sub_rows={}
+  sub_rows.clear()
   obj_rows={}
+  obj_rows.clear()
   gv_nodes={}
   gv_edges={}
   for node in G[level].nodes(data='label'):
