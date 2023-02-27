@@ -106,8 +106,6 @@ def update_level(level,curr_proc):
     elif G[level].has_edge(edge[1],edge[0]):
       gv_edges[edge[0]+'🔹'+'-'+'🔹'+edge[1]]=\
         '"'+edge[0]+'" -> "'+edge[1]+'" [dir=back penwidth="4"]'
-  for r in list(sub_rows):
-    print(r)
   return(
     [dot_header+'\n'.join(gv_nodes.values())+'\n'+'\n'.join(gv_edges.values())+'}',
     natsorted(sub_rows.values(),key=lambda row: row['s'])+
@@ -225,8 +223,7 @@ def change_grid(ccell,level,node,dataflow,cp,ag):
             if not (G[level].has_edge(cp,sel_pred) or G[level].has_edge(sel_pred,cp)):
               G[level].add_edge(cp,sel_pred)
               G[level].add_edge(sel_pred,cp)
-            elif G[level].has_edge(cp,sel_pred) and G[level].has_edge(sel_pred,cp):
-              G[level].add_edge(cp,sel_pred)
+            elif (G[level].has_edge(cp,sel_pred) and G[level].has_edge(sel_pred,cp)):
               G[level].remove_edge(sel_pred,cp)
             elif G[level].has_edge(cp,sel_pred):
               G[level].add_edge(sel_pred,cp)
