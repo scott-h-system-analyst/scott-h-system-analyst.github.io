@@ -6,19 +6,30 @@ title: "Scott H. Code and Demonstrations"
 abstract: "I help people collaboratively model, understand, operate and improve systems using local-first graph analysis that prioritizes human cognition over machine."
 
 ---
+# Triple Console
 
+Demonstration of console to visualize and modify graphs, focused on Gane and Sarson notation with emoji.  Note that most graph utilities attempt to do this at the node level visually; however, this can be cumbersome, as locating the nodes on the graph quickly for even medium sized graphs takes a bit of visual scanning by participants.
+
+## Code
+
+[github.io/triple_console/](https://github.com/scott-h-system-analyst/scott-h-system-analyst.github.io/tree/main/triple_console)
+
+## Video
+
+[linkedin.com/plotly-dash-localfirst](https://www.linkedin.com/posts/scott-h-system-analyst_plotly-dash-localfirst-activity-7036110405613559808-kbp0)
 
 # Graph Grow
+
 Demonstration of local-first graph collaboration utilizing Plotly Dash. 
 
 
 ## Code
 
-[scott-h-system-analyst.github.io/tree/main/graph_grow_mqtt](https://github.com/scott-h-system-analyst/scott-h-system-analyst.github.io/tree/main/graph_grow_mqtt)  
+[github.io/tree/main/graph_grow_mqtt](https://github.com/scott-h-system-analyst/scott-h-system-analyst.github.io/tree/main/graph_grow_mqtt)  
 
 ## Video
  
-[linkedin.com/posts/scott-h-system-analyst_plotly-dash-dfds-activity-7033319022272110592-STeP/](https://www.linkedin.com/posts/scott-h-system-analyst_plotly-dash-dfds-activity-7033319022272110592-STeP/)  
+[linkedin.com/plotly-dash-dfds](https://www.linkedin.com/posts/scott-h-system-analyst_plotly-dash-dfds-activity-7033319022272110592-STeP/)  
 
 # Privacy
 
