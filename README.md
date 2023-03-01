@@ -16,6 +16,8 @@ Demonstration of console to visualize and modify graphs, focused on Gane and Sar
 
 ## Video
 
+![](images/console.gif)
+
 [linkedin.com/plotly-dash-localfirst](https://www.linkedin.com/posts/scott-h-system-analyst_plotly-dash-localfirst-activity-7036110405613559808-kbp0)
 
 # Graph Grow
@@ -28,6 +30,8 @@ Demonstration of local-first graph collaboration utilizing Plotly Dash.
 [github.io/tree/main/graph_grow_mqtt](https://github.com/scott-h-system-analyst/scott-h-system-analyst.github.io/tree/main/graph_grow_mqtt)  
 
 ## Video
+
+![](images/dynogrow.gif)
  
 [linkedin.com/plotly-dash-dfds](https://www.linkedin.com/posts/scott-h-system-analyst_plotly-dash-dfds-activity-7033319022272110592-STeP/)  
 
