@@ -1,7 +1,7 @@
 @font-face {
   font-family: NCE;
-  src: url("fonts/noto-color-emoji-v24-emoji-regular.woff2") format('woff2'),
-     url("fonts/noto-color-emoji-v24-emoji-regular.woff") format('woff');
+  src: url("/fonts/noto-color-emoji-v24-emoji-regular.woff2") format('woff2'),
+     url("/fonts/noto-color-emoji-v24-emoji-regular.woff") format('woff');
   font-weight: bold;
   font-weight: normal;
   font-style: italic;
@@ -37,6 +37,8 @@ svg {
 
 #subtitle {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (prefers-color-scheme: dark) {
 a:visited {
@@ -733,16 +735,10 @@ li>ul {
   margin-top: 0;
 }
 
-blockquote {
-  margin: 1em 0 1em 1.7em;
-  padding-left: 1em;
-  border-left: 2px solid #e6e6e6;
-  color: #606060;
-}
 
 
 code {
-  font-size: 85%;
+  font-size: 1.5em;
   margin: 0;
   hyphens: manual;
 }
@@ -835,34 +831,6 @@ div.hanging-indent {
 }
 
 
-
-/* CSS for syntax highlighting */
-/* CSS for citations */
-div.csl-bib-body {}
-
-div.csl-entry {
-  clear: both;
-}
-
-.hanging-indent div.csl-entry {
-  margin-left: 2em;
-  text-indent: -2em;
-}
-
-div.csl-left-margin {
-  min-width: 2em;
-  float: left;
-}
-
-div.csl-right-inline {
-  margin-left: 2em;
-  padding-left: 1em;
-}
-
-div.csl-indent {
-  margin-left: 2em;
-}
-
 #sean_button {
   right: 10px;
   font-size: 2em;
@@ -886,6 +854,59 @@ div.csl-indent {
   display:grid;
   overflow-y: scroll;
   max-height: 100vh;
+}
+
+  figcaption {
+    font-size: 1em;
+  }
+  figcaption:before {
+    content: 'Figure 'counter(figures)': ';
+  }
+  figure {
+    margin: 0px;
+    text-align: center;
+    padding: 2px;
+    counter-increment: figures;
+  }
+  .figclick {margin:auto;margin-top:0px; font-size: .8em;text-align: center;}
+
+
+    .boxup {
+      margin: 0;
+    }
+    
+    .boxup p {
+    border: 3px solid #bf8040;
+    font-size: 1em; font-style: italic; 
+    padding: 15px;
+    border-radius: 5px;
+}
+.boxup p::before {
+    font-size: 2em; 
+    font-weight: bold; 
+    content: '⏳️\00a0';
+    vertical-align: bottom;
+}
+.boxup p::after {
+    white-space:pre;
+}
+
+blockquote {
+  margin: 1em 0 1em 1.7em;
+  padding-left: 1em;
+  border-left: 2px solid #e6e6e6;
+}
+
+
+blockquote p::before {
+    font-size: 2em; 
+    content: '“\00a0';
+    vertical-align: bottom;
+}
+
+blockquote p::after {
+    font-size: 1em; font-style: normal; 
+    white-space:pre;
 }
 
 
