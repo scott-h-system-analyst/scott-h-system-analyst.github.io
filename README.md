@@ -15,7 +15,7 @@ This code supports my work with [Triple System Analysis](https://triple.pub), wh
 
 ## Triple Console
 
-Demonstration of console to visualize and modify graphs, focused on Gane and Sarson notation with emoji.  Note that most graph utilities attempt to do this at the node level visually; however, this can be cumbersome, as locating the nodes on the graph quickly for even medium sized graphs takes a bit of visual scanning by participants.
+Demonstration of console to visualize and modify graphs, focused on Gane and Sarson notation with emoji.  Note that most graph utilities attempt to do this at the node level visually; however, this can be cumbersome, as locating the nodes on the graph quickly, for even medium sized graphs, takes a bit of visual scanning by participants.
 
 ### Code
 
@@ -49,7 +49,7 @@ Demonstration of signed triples in streams using wxPython for the UI, MQTT, and 
 
 
 ### Code
-[github.io/tree/main/graph_grow_mqtt](https://github.com/scott-h-system-analyst/scott-h-system-analyst.github.io/tree/main/keys_stream_wxpython) 
+[github.io/tree/main/keys_stream_wxpython](https://github.com/scott-h-system-analyst/scott-h-system-analyst.github.io/tree/main/keys_stream_wxpython) 
 
 ### Demonstration Videos
 
@@ -141,8 +141,6 @@ Here I am in 1987, fixing the brakes on a 1965 Rambler Station Wagon:
 
 ![Fixing brakes](/images/frontbrakeram65.jpg)
 
-<div class="figclick"><a href="https://triple.pub/images/frontbrakeram65.jpg">Click here for larger picture</a></div>
-
 
 I was young and foolish to not use jack stands; however, I could barely afford the pads, so I'll give myself a little slack, but my-o-my, seeing the car balanced on that bottle jack makes me shake my head and offer advice I likely wouldn't have heeded anyway.  My "toolbox" was that big metal bowl in the foreground.
 
@@ -150,7 +148,7 @@ The technical service manual I had for my 1963 Rambler American was incorrect.  
 
 ![AMC 196 valves](/images/valves.gif) 
 
-Cars are systems.  They are affected by supply chain issues and general complexity.  Even though the unibody Ramblers with their rust dip would last for decades, the Chrysler acquisition in 1987 hindered the availability of parts.  Working on a Rambler works well with ideas of system resilience.  Is it simple?  Can it be re-used?  Does one vendor control the distribution and tooling?   
+Cars are systems.  They are affected by supply chain issues and general complexity.  Even though the unibody Ramblers with their rust dip would last for decades, the Chrysler acquisition in 1987 hindered the availability of parts.  Working on a Rambler illustrates ideas of system resilience.  Is it simple?  Can it be re-used?  Does one vendor control the distribution of parts via tooling?  Can a human understand it and fix it?  In the end, though, if the parts are throttled, you have to support the cycle of consumption and purchase a different car.  
 
 ### Homebrew Computer
 
@@ -227,7 +225,7 @@ I have written down my dreams, memories, and general daily journal entries since
 
 ![MCJ 1994](images/mcj94.jpg)
 
-More and more, as I survived the increasingly stifling intellectual environment of the places I worked at, I would focus on journal software.
+More and more, as I survived the increasingly stifling intellectual environment of the places I worked at, I would focus on my journal software in my spare time. 
 
 
 ![Heaven and Hell](images/terryadavis.svg)
