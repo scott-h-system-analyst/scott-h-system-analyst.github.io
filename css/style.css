@@ -579,8 +579,8 @@ a:link {
   justify-content: center;
 }
  #logo {
-    min-width:8em; 
-    max-width:10em; 
+    min-width:7em; 
+    max-width:9em; 
     padding: .3em;
     grid-column: 1;
     grid-row: 1/4;
@@ -618,6 +618,8 @@ a:link {
     margin: 1em;
   }
   #barbottom {
+    height:.5em;
+    background-image: linear-gradient(to right, #ff4c00 33%,#00d4ff 33% 66%,#ffff00 66%);
     margin-top: 1em;
     grid-row: 5;
     grid-column: 1/4;
@@ -626,7 +628,10 @@ a:link {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr 2fr 1fr 1fr auto; 
   }
-
+#bartop {
+  height:.5em;
+  background-image: linear-gradient(to right, #ff4c00 33%,#00d4ff 33% 66%,#ffff00 66%);
+}
 @media (max-width: 1000px) {
   #mid_mini{
     background-color: #d2f2ff;
@@ -656,10 +661,6 @@ a:link {
   #bartop {
     grid-column: 1/4;
     grid-row: 1;
-  }
-  #bartop svg{
-    padding-bottom: 0px;
-    vertical-align: bottom;
   }
   #mid_mini{
     grid-row: 2;
