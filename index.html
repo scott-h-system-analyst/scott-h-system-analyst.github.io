@@ -130,12 +130,16 @@
         been my primary focus for several years.</p>
         <h2 data-number="1.1" id="triple-console"><span
         class="header-section-number">1.1</span> Triple Console</h2>
-        <p>Demonstration of console to visualize and modify graphs,
-        focused on Gane and Sarson notation with emoji. Note that most
-        graph utilities attempt to do this at the node level visually;
-        however, this can be cumbersome, as locating the nodes on the
-        graph quickly, for even medium sized graphs, takes a bit of
-        visual scanning by participants.</p>
+        <p>Demonstration of Plotly Dash console that visualizes and
+        modifies data flow graphs in real-time. It uses an emoji
+        notation, so it can easily be modified for other domains. I’m
+        using connection rules for Gane and Sarson notation. Note that
+        most graph utilities attempt to build graphs at the node level
+        visually; however, this can be cumbersome, as locating the nodes
+        on the graph quickly, for even medium sized graphs, takes a bit
+        of visual scanning by participants. Data flow forms a fairly
+        constrained graph, so their are many advantages to creating a
+        custom UI for editing the graph.</p>
         <h3 data-number="1.1.1" id="code"><span
         class="header-section-number">1.1.1</span> Code</h3>
         <p><a
@@ -175,7 +179,9 @@
         wxPython</h2>
         <p>Demonstration of signed triples in streams using wxPython for
         the UI, MQTT, and a Sqlite database for storage and replay of
-        the streams.</p>
+        the streams. This includes a graph editor in pure Python using
+        the wxPython framework rather than using Dash and React
+        components.</p>
         <h3 data-number="1.3.1" id="code-2"><span
         class="header-section-number">1.3.1</span> Code</h3>
         <p><a
@@ -213,35 +219,48 @@
         computers: IBM PCs/Compatibles, CP/M, and the odd <a
         href="http://www.thebattles.net/sage/">Sage with UCSD p-System
         OS</a>. Prior to PCs, information processing systems required
-        many people to operate and maintain, as well as large
-        corporations that often owned the hardware, leasing the systems
-        to users. With PCs, organizations could scale and operate with
-        agency. A typical sale involved business and system analysis. A
-        customer would have a problem they needed to solve, and the sale
-        would revolve around that problem. I would often go onsite after
-        the sale to help bring the system operational within their
-        organization. I remember needing to use a hex editor on a word
-        processing binary file to match superscript/subscript commands
-        for a customer’s printer, as they were printing academic papers.
-        I also helped with a successful political campaign by selling a
+        many people to operate and maintain them, as well as reliance on
+        large corporations that often owned the hardware, leasing the
+        systems to users. With PCs, organizations could scale and
+        operate with agency. A typical sale involved business and system
+        analysis. A customer would have a problem they needed to solve,
+        and the sale would revolve around that problem. I would often go
+        onsite after the sale to help bring the system operational
+        within their organization. I remember needing to use a hex
+        editor on a WordStar word processing binary file to match
+        superscript/subscript commands for a customer’s printer. I
+        helped with a successful political campaign by selling a
         politician a PC and helping her load and configure her database
         for mailings. She won her state representative campaign, and
         later went on to become a member of the US House of
         Representatives. These experiences stayed with me, ingrained as
-        both a benefit of information technology in operation, but also
-        as a time of revolution, when stakeholders had technological
-        agency.</p>
-        <p>My career moved on to enterprise IT with the widespread
-        adoption of networking. I got a job at an IT consulting firm as
-        a technician and helpdesk for the main and satellite office.
-        This single company morphed through an initial joining of four
-        founding companies across six cities, into a nation-wide
-        consulting company in 25 cities. I developed my own early form
-        of DevOps to assist with this. I would ask managers at the
-        acquired companies to fill out a spreadsheet of applications,
-        users, shares, and permissions, and I would feed that into a
-        Perl script that would configure NT servers (BDC and PDC) for
-        each location.</p>
+        both as an illustration of the benefit of information
+        technology, but also let me see a time of revolution, when
+        stakeholders had technological and operational agency. Apple
+        Computer <a href="https://youtu.be/VtvjbmoDx-I">was also tuned
+        in</a> to this revolution. Who would have imagined that we would
+        eventually cede that agency to a handful of cloud corporations,
+        after winning the revolution from corporate compute once? Even
+        routine office applications, the staple applications of
+        spreadsheets, databases, and word processing applications have
+        moved to cloud. The handful of apex cloud companies require many
+        other cloud companies to operate, and as stakeholders in
+        organizations that desire information processing systems,
+        connectivity is also required. I watched and participated in the
+        entire transition, and understand the reasons; however, I have
+        never lost the memory of that excitement and freedom.</p>
+        <p>I spent a total of five years selling personal computers,
+        obtained a degree in math. My career moved on to enterprise IT
+        with the widespread adoption of networking in 1994. I got a job
+        at an IT consulting firm as a technician and helpdesk for the
+        main and satellite office. This single company morphed through
+        an initial joining of four founding companies across six cities,
+        into a nation-wide consulting company in 25 cities. I developed
+        my own early form of DevOps to assist with this. I would ask
+        managers at the acquired companies to fill out a spreadsheet of
+        applications, users, shares, and permissions, and I would feed
+        that into a Perl script that would configure NT servers (BDC and
+        PDC) for each location.</p>
         <p>The complexity of the resulting system required automation
         and third party software to manage. I learned an early
         enterprise IT system management platform, Unicenter TNG, but
@@ -278,18 +297,19 @@
         world that is unique? How do we gauge success? Once these
         broader questions are answered, BI can be used to ensure the
         organization is tracking to intent. The roll-up failed, tried to
-        re-invent itself, and sold for a decent sum. I was laid off, one
-        of the last ones shutting down the datacenter.</p>
-        <p>After that, in 2001, I got a job working for a startup that
-        provided inventory management and combined purchasing for health
-        food stores. Most of the stores were connected with dial-up
-        lines. With a crew of three, I deployed and managed 150 stores
-        with POS/PC systems, centrally updated inventory databases, and
-        updated frequently updated software at the stores, including
+        re-invent itself, and sold for a decent sum. I was laid off, and
+        was one of the last ones shutting down the datacenter.</p>
+        <p>In 2001, I got a job working for a startup that provided
+        inventory management and combined purchasing for health food
+        stores. Most of the stores were connected with dial-up lines.
+        With a crew of three, I deployed and managed 150 stores with
+        POS/PC systems, centrally updated inventory databases, and
+        updated frequently changing software at the stores, including
         Palm OS devices that handled the scanning. This, combined with
         the Unicenter TNG work I had done previously, gave me a decent
         insight into the coming DevOps perspective that infrastructure
-        was code.</p>
+        was code. Folks, this was nightly CI/CD to 150 stores over
+        dial-up lines.</p>
         <figure>
         <img src="/images/esystem.png" style="width:50em"
         alt="Diagram I created of the system I built in 2002" />
@@ -299,13 +319,15 @@
         <div class="figclick">
         <a href="/images/esystem.png">Click here for larger version.</a>
         </div>
+        <p>Folks, this was nightly CI/CD to 150 stores over dial-up
+        lines.</p>
         <p>When the company got tight on money, it used the float from
         the store purchases for operations. This has a similar kind of
-        problem as the tweak that rolling operational costs into
-        acquisitions. Everything is great as long as you are expanding,
-        but a lull can be devastating.</p>
+        problem as rolling operational costs into acquisitions.
+        Everything is great as long as you are expanding, but a lull can
+        be devastating.</p>
         <p>I then got a job in 2003 for a medical ASP (ASP=Application
-        Service Provider It is what they called cloud before it became
+        Service Provider. It is what they called cloud before it became
         SaaS). In addition to building out and monitoring the front-end
         servers, I worked on their remit downloads, verification, and
         processing. While there, I created my first data flow,
@@ -376,25 +398,25 @@
         would come up. From that time forward, I insisted on creating an
         appropriately scaled solution description for every medium+
         project I worked on. My work experience so far showed the value
-        of this level of detail. My insistence on solution design
+        of this level of detail. My insistence on solution description
         documentation, though, was increasingly received poorly over
         time. It was perceived as a drag on “agility”.</p>
-        <p>I got bored and moved a point of sale system to cloud for a
-        brick and mortar retailer, and moved on again to a pioneer of
-        internet search that was re-inventing itself after losing the
-        search wars to a current cloud giant. I was in charge of all
-        monitoring. There was a brilliant person in charge of IT that
-        had replaced the typical relational database reporting with
-        decomposed data that was then fed into reporting and analysis
-        engines, kind of like the modern Elastic. I realized that
-        key-value pairs in event streams could be much more effectively
-        analyzed than canned relational reports. This is the idea of
-        Splunk and I evangelized Splunk. I also struggled with the
-        simplest tasks of reporting on all monitors across thousands of
-        servers. Nodes in a monitoring system do not fit well into a
-        relational database. Most machines are different, even if they
-        are the same model. I found that NoSQL approaches worked better
-        for reporting on monitor classes.</p>
+        <p>I moved on to a point of sale system to cloud for a brick and
+        mortar retailer, and moved on again to a pioneer of internet
+        search that was re-inventing itself after losing the search wars
+        to a current cloud giant. I was in charge of all monitoring.
+        There was a brilliant person in charge of IT that had replaced
+        the typical relational database reporting with decomposed data
+        that was then fed into reporting and analysis engines, kind of
+        like the modern Elastic. I realized that key-value pairs in
+        event streams could be much more effectively analyzed than
+        canned relational reports. This is the idea of Splunk and I
+        evangelized Splunk. I also struggled with the simplest tasks of
+        reporting on all monitors across thousands of servers. Nodes in
+        a monitoring system do not fit well into a relational database.
+        Most machines are different, even if they are the same model. I
+        found that NoSQL approaches worked better for reporting on
+        monitor classes.</p>
         <div class="boxup">
         <p>
         At this point, 2011, I have in my kit: streams via key-value
@@ -402,17 +424,18 @@
         solution description/design documents, graphs for resilience
         (homebrew) and graphs for reporting (monitors)
         </div>
-        <p>I was hot on the key-value pair analysis track. I moved on to
-        another startup, where I could do anything I wanted in IT as
-        long as it was fast enough and fit the requirements of the money
-        that backed us (large banks). I struggled with my main developer
-        to build out an analysis platform for an upcoming launch. I
-        finally just did it all myself in two weeks using GNU/Linux,
-        BASH, Perl to capture and normalize the data, and ran it all
-        into Splunk as key-value pairs, happily proving my ideas from my
-        previous job. I used my skills in system documentation to
-        demonstrate to the banks our systems were secure and protected.
-        This company failed, again, because of funding.</p>
+        <p>I was hot on the key-value pair stream analysis track. I
+        moved on to another startup, where I could do anything I wanted
+        in IT as long as it was fast enough and fit the requirements of
+        the money that backed us (large banks). I struggled with my main
+        developer to build out an analysis platform for an upcoming
+        launch. I finally just did it all myself in two weeks using
+        GNU/Linux, BASH, Perl to capture and normalize the data, and ran
+        it all into Splunk as key-value pairs, happily proving my ideas
+        from my previous job. I used my skills in system documentation
+        to demonstrate to the banks our systems were secure and
+        protected. This company also failed because of lack of
+        funding.</p>
         <p>I moved on to another law firm, which had a similar cycle of
         projects that my solution design skills worked well for;
         however, there are some cracks starting to show. There was no
@@ -424,16 +447,16 @@
         deleted files were only retained for 30 days, then discovery was
         easier to comply with. The cognitive ability for somebody to
         include backup retention from a discovery perspective, backup
-        retention from a critical files perspective, and mix that in
-        with off-site replication was stretched to the point that
-        additional questions about backup retention of critical files
-        were quickly brushed off as already dealt with. The scenario I
-        was focused on was if data is corrupted or purposefully deleted
-        and not discovered until after 30 days. Certainly there are
-        important files at a law firm where this needed to be addressed,
-        but the collapse of architecture-&gt;engineering-&gt;operations
-        was coming down on my head as I struggled. I met over ten times
-        over the course of a year to get a proper backup retention
+        retention from a critical files perspective, and off-site
+        replication and storage, was stretched so far, that additional
+        questions about backup retention of critical files were quickly
+        brushed off as already dealt with. The scenario I was focused on
+        was if data is corrupted or purposefully deleted and not
+        discovered until after 30 days. Certainly there are important
+        files at a law firm where this needed to be addressed, but the
+        collapse of the architecture-&gt;engineering-&gt;operations
+        roles was coming down on my head as I struggled. I met over ten
+        times over the course of a year to get a proper backup retention
         policy in place. I finally got the operations team to put in a
         fix; however, they couldn’t figure out how to make it permanent
         for more than a year, and I had to set a yearly notice on my
@@ -444,7 +467,11 @@
         adjusted for. I had no indication that after all of this fight,
         that it had sunk in that we needed a broader policy to cover
         other files, and I had used up more than my allotted attention
-        fighting for this one backup design requirement aspect.</p>
+        fighting for this one backup design requirement aspect. This
+        experience inspired me to figure out how to break down
+        requirements and design considerations in ways that stakeholders
+        could understand. As an analyst, the problem is my problem, not
+        the stakeholders’.</p>
         <p>In addition to the increasing cognitive challenges for
         operations folks trying to shepherd design considerations, the
         level of documentation, even in its simplest form, was too much
