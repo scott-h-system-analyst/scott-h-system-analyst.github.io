@@ -258,7 +258,8 @@ Here is a screenshot of the current version, written with JavaScript and Python,
 
 [Triple System Analysis](https://triple.pub) (3SA) doesn't tackle the maintenance of triples themselves.  It is a way that I make the design persistent, as it pushes the ideas down to data rather than stopping at processes (software).  Ultimately that is how I'm tackling my own growing collection of journal entries.  In triple form I can create something with any OS.  Further, by decoupling the rendering from the OS and triple creation, I can always read my journal with a modern web browser, or whatever the equivalent is.  The 100 inch wheelbase Nash/AMC Ramblers were built around the  [196 CI engine](#wrenching).  I think of my current journal view in that way.  It is an engine of data, triples, surrounded by a script coach.  Put the horse before the cart, right?
 
-<div class="boxup"><p>I'm OK with data being the law, but only if it is in the service of love, under human will. Distrust any stack of services peddled to you that doesn't acknowledge up front that human needs come first. Expect initial human collaboration to establish that need. If the priorities start with a proposed service, or divorce data from human requirements, then reject it until the need is established by the humans concerned with the system. If the data can be used to scare up errors and misconceptions, and keep efforts on track with whatever the AI/ML and analytics stack of the month is, and doesn't detract too much from other human needs, then this is a win. Remember, humans need a certain kind of biosphere to thrive. Ensure balance. Everything has a cost. Leave room for nature – Leave room for nature.</div>
+
+
 
 
 
