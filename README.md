@@ -257,7 +257,7 @@ Here is a screenshot of the current version, written with JavaScript and Python,
 ![MCJ 2022](images/mcjnow.png){width=50em}
 
 
-[Triple System Analysis](https://triple.pub) (3SA) doesn't tackle the maintenance of triples themselves.  It is a way that I make the design persistent, as it pushes the ideas down to data rather than stopping at processes (software).  Ultimately that is how I'm tackling my own growing collection of journal entries.  In triple form I can create something with any OS.  Further, by decoupling the rendering from the OS and triple creation, I can always read my journal with a modern web browser, or whatever the equivalent is.  The 100 inch wheelbase Nash/AMC Ramblers were built around the  [196 CI engine](#wrenching).  I think of my current journal view in that way.  It is an engine of data, triples, surrounded by a script coach.  Put the horse before the cart, right?
+I am pushing the knowledge representation of the journal ideas down to data rather than stopping at processes (software).  That is how I'm tackling my growing collection of journal entries.  In triple form I can create something with any OS.  Further, by decoupling the rendering from the OS and triple creation, I can always read my journal with a modern web browser, or whatever the equivalent is.  The 100 inch wheelbase Nash/AMC Ramblers were built around the  [196 CI engine](#wrenching).  I think of my current journal view in that way.  It is an engine of data, triples, surrounded by a script coach.  Put the horse before the cart, right?
 
 
 ### Energy Transition
